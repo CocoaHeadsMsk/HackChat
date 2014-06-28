@@ -12,6 +12,7 @@
 		1D457589195F14A000B4415B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D457587195F14A000B4415B /* Main.storyboard */; };
 		1D45758B195F14A000B4415B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D45758A195F14A000B4415B /* Images.xcassets */; };
 		1D457597195F14A000B4415B /* HackChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D457596195F14A000B4415B /* HackChatTests.swift */; };
+		1D4575A1195F1C7700B4415B /* MPCHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4575A0195F1C7700B4415B /* MPCHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		1D457590195F14A000B4415B /* HackChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D457595195F14A000B4415B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D457596195F14A000B4415B /* HackChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackChatTests.swift; sourceTree = "<group>"; };
+		1D4575A0195F1C7700B4415B /* MPCHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				1D457583195F14A000B4415B /* AppDelegate.swift */,
 				1D457585195F14A000B4415B /* ViewController.swift */,
+				1D4575A0195F1C7700B4415B /* MPCHandler.swift */,
 				1D457587195F14A000B4415B /* Main.storyboard */,
 				1D45758A195F14A000B4415B /* Images.xcassets */,
 				1D457581195F14A000B4415B /* Supporting Files */,
@@ -211,6 +214,7 @@
 			files = (
 				1D457586195F14A000B4415B /* ViewController.swift in Sources */,
 				1D457584195F14A000B4415B /* AppDelegate.swift in Sources */,
+				1D4575A1195F1C7700B4415B /* MPCHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
