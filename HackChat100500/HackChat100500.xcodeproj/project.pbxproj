@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007C42B1195F7F5F00CB11DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C42B0195F7F5F00CB11DB /* AppDelegate.swift */; };
+		007C42B3195F7F5F00CB11DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C42B2195F7F5F00CB11DB /* ViewController.swift */; };
+		007C42B6195F7F5F00CB11DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C42B4195F7F5F00CB11DB /* Main.storyboard */; };
+		007C42B8195F7F5F00CB11DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007C42B7195F7F5F00CB11DB /* Images.xcassets */; };
+		007C42C4195F7F5F00CB11DB /* HackChat100500Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C42C3195F7F5F00CB11DB /* HackChat100500Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		007C42BE195F7F5F00CB11DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 007C42A3195F7F5F00CB11DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 007C42AA195F7F5F00CB11DB;
+			remoteInfo = HackChat100500;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007C42AB195F7F5F00CB11DB /* HackChat100500.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackChat100500.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		007C42AF195F7F5F00CB11DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007C42B0195F7F5F00CB11DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		007C42B2195F7F5F00CB11DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		007C42B5195F7F5F00CB11DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		007C42B7195F7F5F00CB11DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		007C42BD195F7F5F00CB11DB /* HackChat100500Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackChat100500Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		007C42C2195F7F5F00CB11DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007C42C3195F7F5F00CB11DB /* HackChat100500Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackChat100500Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		007C42A8195F7F5F00CB11DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007C42BA195F7F5F00CB11DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007C42A2195F7F5F00CB11DB = {
+			isa = PBXGroup;
+			children = (
+				007C42AD195F7F5F00CB11DB /* HackChat100500 */,
+				007C42C0195F7F5F00CB11DB /* HackChat100500Tests */,
+				007C42AC195F7F5F00CB11DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		007C42AC195F7F5F00CB11DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				007C42AB195F7F5F00CB11DB /* HackChat100500.app */,
+				007C42BD195F7F5F00CB11DB /* HackChat100500Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		007C42AD195F7F5F00CB11DB /* HackChat100500 */ = {
+			isa = PBXGroup;
+			children = (
+				007C42B0195F7F5F00CB11DB /* AppDelegate.swift */,
+				007C42B2195F7F5F00CB11DB /* ViewController.swift */,
+				007C42B4195F7F5F00CB11DB /* Main.storyboard */,
+				007C42B7195F7F5F00CB11DB /* Images.xcassets */,
+				007C42AE195F7F5F00CB11DB /* Supporting Files */,
+			);
+			path = HackChat100500;
+			sourceTree = "<group>";
+		};
+		007C42AE195F7F5F00CB11DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				007C42AF195F7F5F00CB11DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		007C42C0195F7F5F00CB11DB /* HackChat100500Tests */ = {
+			isa = PBXGroup;
+			children = (
+				007C42C3195F7F5F00CB11DB /* HackChat100500Tests.swift */,
+				007C42C1195F7F5F00CB11DB /* Supporting Files */,
+			);
+			path = HackChat100500Tests;
+			sourceTree = "<group>";
+		};
+		007C42C1195F7F5F00CB11DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				007C42C2195F7F5F00CB11DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		007C42AA195F7F5F00CB11DB /* HackChat100500 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007C42C7195F7F5F00CB11DB /* Build configuration list for PBXNativeTarget "HackChat100500" */;
+			buildPhases = (
+				007C42A7195F7F5F00CB11DB /* Sources */,
+				007C42A8195F7F5F00CB11DB /* Frameworks */,
+				007C42A9195F7F5F00CB11DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackChat100500;
+			productName = HackChat100500;
+			productReference = 007C42AB195F7F5F00CB11DB /* HackChat100500.app */;
+			productType = "com.apple.product-type.application";
+		};
+		007C42BC195F7F5F00CB11DB /* HackChat100500Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007C42CA195F7F5F00CB11DB /* Build configuration list for PBXNativeTarget "HackChat100500Tests" */;
+			buildPhases = (
+				007C42B9195F7F5F00CB11DB /* Sources */,
+				007C42BA195F7F5F00CB11DB /* Frameworks */,
+				007C42BB195F7F5F00CB11DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				007C42BF195F7F5F00CB11DB /* PBXTargetDependency */,
+			);
+			name = HackChat100500Tests;
+			productName = HackChat100500Tests;
+			productReference = 007C42BD195F7F5F00CB11DB /* HackChat100500Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		007C42A3195F7F5F00CB11DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ZEG;
+				TargetAttributes = {
+					007C42AA195F7F5F00CB11DB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					007C42BC195F7F5F00CB11DB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 007C42AA195F7F5F00CB11DB;
+					};
+				};
+			};
+			buildConfigurationList = 007C42A6195F7F5F00CB11DB /* Build configuration list for PBXProject "HackChat100500" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 007C42A2195F7F5F00CB11DB;
+			productRefGroup = 007C42AC195F7F5F00CB11DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				007C42AA195F7F5F00CB11DB /* HackChat100500 */,
+				007C42BC195F7F5F00CB11DB /* HackChat100500Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		007C42A9195F7F5F00CB11DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007C42B6195F7F5F00CB11DB /* Main.storyboard in Resources */,
+				007C42B8195F7F5F00CB11DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007C42BB195F7F5F00CB11DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007C42A7195F7F5F00CB11DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007C42B3195F7F5F00CB11DB /* ViewController.swift in Sources */,
+				007C42B1195F7F5F00CB11DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007C42B9195F7F5F00CB11DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007C42C4195F7F5F00CB11DB /* HackChat100500Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		007C42BF195F7F5F00CB11DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 007C42AA195F7F5F00CB11DB /* HackChat100500 */;
+			targetProxy = 007C42BE195F7F5F00CB11DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		007C42B4195F7F5F00CB11DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				007C42B5195F7F5F00CB11DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		007C42C5195F7F5F00CB11DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		007C42C6195F7F5F00CB11DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		007C42C8195F7F5F00CB11DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HackChat100500/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		007C42C9195F7F5F00CB11DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HackChat100500/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		007C42CB195F7F5F00CB11DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackChat100500.app/HackChat100500";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackChat100500Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		007C42CC195F7F5F00CB11DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackChat100500.app/HackChat100500";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackChat100500Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		007C42A6195F7F5F00CB11DB /* Build configuration list for PBXProject "HackChat100500" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007C42C5195F7F5F00CB11DB /* Debug */,
+				007C42C6195F7F5F00CB11DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		007C42C7195F7F5F00CB11DB /* Build configuration list for PBXNativeTarget "HackChat100500" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007C42C8195F7F5F00CB11DB /* Debug */,
+				007C42C9195F7F5F00CB11DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		007C42CA195F7F5F00CB11DB /* Build configuration list for PBXNativeTarget "HackChat100500Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007C42CB195F7F5F00CB11DB /* Debug */,
+				007C42CC195F7F5F00CB11DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 007C42A3195F7F5F00CB11DB /* Project object */;
+}

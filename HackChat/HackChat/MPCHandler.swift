@@ -37,9 +37,9 @@ class MPCHandler : NSObject, MCSessionDelegate {
     }
     
     func session(session: MCSession!, peer peerID: MCPeerID!, didChangeState state: MCSessionState) {
-        var userInfo:Dictionary<String, MCPeerID> = ["peerID": peerID
-//            , "state":state
-        ]
+//        var userInfo:Dictionary<String, MCPeerID> = ["peerID": peerID, "state":state]
+//        var userInfo:NSDictionary = NSDictionary(objects: [peerID, state], forKeys: ["peerID", "state"])
+        var userInfo = ["userInfoTuple": (peerID, state)]
         
         dispatch_async(dispatch_get_main_queue(), {
             NSNotificationCenter.defaultCenter().postNotificationName("MPCDemo_DidChangeStateNotification", object: nil, userInfo: userInfo)

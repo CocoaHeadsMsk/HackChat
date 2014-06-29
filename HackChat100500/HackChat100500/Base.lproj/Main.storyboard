@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="HackChat100500" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cM-rp-nUT">
+                                <rect key="frame" x="174" y="20" width="133" height="30"/>
+                                <state key="normal" title="Find people to chat">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showBrowserVC" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ckJ-FB-t79"/>
+                                </connections>
+                            </button>
+                            <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XsC-Rn-kjq">
+                                <rect key="frame" x="125" y="135" width="240" height="325"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="80h-wu-z6u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="mlN-lI-9qn"/>
+                                </connections>
+                            </textView>
+                            <textField appearanceType="aqua" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gfo-u8-aDh">
+                                <rect key="frame" x="125" y="68" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="HDj-oh-4uZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="XTR-Oe-KWh"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XsC-Rn-kjq" firstAttribute="top" secondItem="Gfo-u8-aDh" secondAttribute="bottom" constant="37" id="7qv-nm-urK"/>
+                            <constraint firstItem="Gfo-u8-aDh" firstAttribute="top" secondItem="6cM-rp-nUT" secondAttribute="bottom" constant="18" id="FTs-zf-eIm"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="XsC-Rn-kjq" secondAttribute="bottom" constant="20" id="LvS-0E-vwz"/>
+                            <constraint firstAttribute="centerX" secondItem="Gfo-u8-aDh" secondAttribute="centerX" constant="-5" id="SKO-Mn-qc6"/>
+                            <constraint firstAttribute="centerX" secondItem="6cM-rp-nUT" secondAttribute="centerX" constant="-0.5" id="W44-pf-NKG"/>
+                            <constraint firstAttribute="centerX" secondItem="XsC-Rn-kjq" secondAttribute="centerX" constant="-5" id="scL-Rv-Hnp"/>
+                            <constraint firstItem="6cM-rp-nUT" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="ygn-f8-wTn"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <connections>
+                        <outlet property="browserButton" destination="6cM-rp-nUT" id="tYX-NE-5yh"/>
+                        <outlet property="chatBox" destination="Gfo-u8-aDh" id="SlE-v1-6bC"/>
+                        <outlet property="textBox" destination="XsC-Rn-kjq" id="ycZ-oT-VC6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
